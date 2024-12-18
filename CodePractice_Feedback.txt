@@ -1,0 +1,13 @@
+1. What were the best practices that you have incorporated?
+> We have incorporated Page Object Model where we have seggregated page layers along with the test layer to maintain scalability.
+> Also we have implemented customizable extent report to enhance reporting structure.
+
+2. What code optimizations have you done?
+> We have used generic methods and utilities to avoid the repetition of the code.
+> We have used the Data Driven Testing using properties file/csv/json file to handle diverse test data efficiently and improve the test coverage.
+
+3. Please execute on couple of browsers
+> Executed on multiple browsers provided by playwright demonstrating cross browser compatibility.
+
+4. What is your recommended reporting mechanism?
+> For now we recommend using the default report but for better customization we can try implementing the extent report.
